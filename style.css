@@ -12,11 +12,22 @@
     font-family: 'Cinzel', serif;
     font-weight: 700;
 }
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 18px;
+    }
+}
 .texte{
     font-size: 18px;
     font-family: 'Cinzel', serif;
     text-align: justify;
     line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+    .texte {
+        font-size: 15px;
+    }
 }
 .nav{
     list-style-type: none;
@@ -25,7 +36,11 @@
     text-align: center;
     background-color: #fff1a4;
     margin-bottom: 2rem;
-    
+}
+@media screen and (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+    }
 }
 .flexcenter{
     display: flex;
@@ -69,9 +84,9 @@ a:hover{
     color: #163D1D;
     font-weight: bold;
 }
+
 footer{
     background-color: #fff1a4;
     height: 8rem;
     padding: 2rem;
 }
-/* #72A7D5 */
