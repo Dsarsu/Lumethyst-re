@@ -1,0 +1,59 @@
+.container{
+    width: 100%;
+    max-width: 1200px;
+    padding-inline: 1rem;
+    margin-inline: auto;
+    
+}
+.title{
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+.texte{
+    font-size: 18px;
+    font-family: 'Cinzel', serif;
+}
+.nav{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: #fff1a4;
+    margin-bottom: 2rem;
+    
+}
+.flexcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bouton{
+    font-size: 2rem;
+    margin: 2rem;
+
+}
+.maillage{
+    font-size: 18px;
+    font-family: 'Cinzel', serif;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;  
+    padding-inline: 2rem;
+    font-size: 2rem;
+    color: black;
+    font-family: 'Cinzel', serif;
+}
+a:hover{
+    color: #163D1D;
+    font-weight: bold;
+}
+footer{
+    background-color: #fff1a4;
+    height: 10rem;
+}
+/* #72A7D5 */
